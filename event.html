@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Profile</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <div align="center">
+        <h1>Save and View an Employee Profile</h1>
+        <text= style ="color:#d42904;"> Employee ID: </text>
+        <br>
+        <input type="text" name="employeeid" id="empid">
+        <br> <text= style ="color:#d42904;"> First Name:</text>
+        <br>
+        <input type="text" name="firstname" id="fname">
+        <br> Last name:
+        <br>
+        <input type="text" name="lastname" id="lname">
+        <br> Employee Age:
+        <br>
+        <input type="text" name="empage" id="empage">
+        <br> Employee Email:
+        <br>
+        <input type="text" name="empemail" id="empemail">
+        <br> Employee Address:
+        <br> 
+        <input type="text" name="empaddress" id="empaddress">
+        <br>
+        <br>
+        <input type="submit" id="saveprofile" value="Save Profile">
+        <br>
+        <p id="profileSaved"></p>
+        <br>
+        <input type="submit" id="getprofile" value="View all the Employee Profiles">
+        <br>
+        <div id="showProfile">
+            <table id="employeeProfile"><br
+                <colgroup>
+                    <col style="width:10%">
+                    <col style="width:10%">
+                    <col style="width:10%">
+                    <col style="width:10%">
+                    <col style="width:10%">
+                    <col style="width:10%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th style="color:red;">Employee ID</th>
+                        <th style="color:red;">First name</th>
+                        <th style="color:red;">Last Name</th>
+                        <th style="color:red;">Employee Age</th>
+                        <th style="color:red;">Employee Email</th>
+                        <th style="color:red;">Employee Address</th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+</body>
+</html>
